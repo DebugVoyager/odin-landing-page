@@ -39,14 +39,11 @@ img {
 .navbar-container {
     display: flex;
     justify-content: center;
-    /* margin-bottom: 100px; */
     padding-top: 25px;
     width: 75%;
-    /* outline: 2px solid white; */
 }
 
 .hero-container {
-    /* outline: 2px solid white; */
     width: 75%;
     display: flex;
     gap: 50px;
@@ -57,7 +54,6 @@ img {
     flex-direction: column;
     width: 50%;
     gap: 10px;
-    /* outline: 2px solid white; */
 }
 
 .hero-main-text {
@@ -112,7 +108,6 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    /* outline: 2px solid black; */
 }
 
 .center-text-heading {
@@ -120,7 +115,6 @@ img {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    /* outline: 2px solid black; */
 }
 
 .center-shape-container {
@@ -128,7 +122,6 @@ img {
     height: 75%;
     display: flex;
     gap: 20px;
-    /* outline: 2px solid black; */
 }
 
 .center-shape {
@@ -139,7 +132,6 @@ img {
     justify-content: center;
     align-items: center;
     gap: 5px;
-    /* outline: 2px solid black; */
 }
 
 .center-shape p {
@@ -154,6 +146,40 @@ img {
     height: 60%;
     border: 3px solid #3882F6;
     border-radius: 10px;
+}
+
+.quote-container {
+    height: 500px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text-container {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.quote-name {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.cta-container {
+    height: 500px;
 }
 
 #header-logo {
