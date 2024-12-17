@@ -72,13 +72,24 @@ img {
 }
 
 .btn-signup {
-    width: 100px;
-    height: auto;
+    width: 125px;
+    height: 35px;
     font-size: 18px;
     border-radius: 7px;
     padding: 5px;
     background-color: #3882F6;
+    border: 2px solid white;
+    transition: background-color 0.3 ease;
+    cursor: pointer;
     color: #E5E7EB;
+}
+
+.btn-signup:active {
+    transform: scale(0.95);
+}
+
+.btn-signup:hover {
+    background-color: #5A9AF9;
 }
 
 .navbar li {
@@ -180,6 +191,55 @@ img {
 
 .cta-container {
     height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-box {
+    height: 40%;
+    width: 90%;
+    border-radius: 5px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-text-container {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.cta-p {
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.cta-description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.footer-container {
+    height: 100px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container a {
+    font-size: 18px;
+    color: #F9FAF8;
 }
 
 #header-logo {
